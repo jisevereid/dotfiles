@@ -1,0 +1,2 @@
+xwallpaper --stretch ~/.config/wall.png
+setxkbmap -option caps:escape
