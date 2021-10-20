@@ -5,4 +5,4 @@
 [ -f ~/.xprofile ] && . ~/.xprofile
 
 # start window manager
-exec i3
+exec dbus-launch --exit-with-session i3
