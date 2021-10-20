@@ -1,10 +1,10 @@
 .aws/
 .bash_logout
 .bash_history
+.Xauthority
 .cache/
 .config/cava/
 .config/htop/
-.config/kitty/
 .config/neofetch/
 .config/BraveSoftware/
 .config/Vieb/
