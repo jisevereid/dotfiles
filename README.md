@@ -1,1 +1,1 @@
-Dotfiles for my custom arch linux rice
+Dotfiles for my custom linux rice
