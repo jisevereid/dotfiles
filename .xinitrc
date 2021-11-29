@@ -1,8 +1,23 @@
-# source Xresources
-[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+#!/bin/bash
 
-# source xprofile
-[ -f ~/.xprofile ] && . ~/.xprofile
+# set the screen
+~/.screenlayout/w3.sh
+~/.scripts/setbg.sh
+
+# compositor
+picom &
+
+# start some util
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+xss-lock --transfer-sleep-lock -- i3lock --nofork &
+unclutter &
+
+# status bar
+slstatus &
+
+# bar applets
+pa-applet &
+nm-applet &
 
 # start window manager
-exec dbus-launch --exit-with-session i3
+exec dbus-launch --exit-with-session dwm
