@@ -3,6 +3,19 @@
 .bash_history
 .Xauthority
 .cache/
+.config/Code - OSS/
+.config/GIMP/
+.config/QtProject.conf
+.config/SEGGER/
+.config/Silicon Labs/
+.config/SimplicityStudio/
+.config/Thunar/
+.config/inkscape/
+.config/jgit/
+.config/jxbrowser/
+.config/kicad/
+.config/xarchiver/
+.config/xfce4/
 .config/cava/
 .config/htop/
 .config/neofetch/
@@ -23,6 +36,16 @@
 .config/spotify/
 .config/wall.png
 .config/yarn/
+.dmrc
+.eclipse/
+.putty/
+.screenrc
+.swt/
+.uc/
+.vim_mru_files
+.vim_runtime/
+.vimrc
+.vscode-oss/
 .dbus/
 .git_token
 .gitconfig
@@ -44,4 +67,6 @@
 .yarn/
 .yarnrc
 Development/
+DE/
 Downloads/
+SimplicityStudio/
